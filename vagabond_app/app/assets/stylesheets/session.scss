@@ -15,8 +15,13 @@ body {
   text-align: center;
   color: #23527c;
 }
+.card-title{
+  padding: 20px;
+  text-decoration: underline;
+}
 input.login, input.password {
       width: 15em;
+      padding-left: 30px;
       -webkit-box-shadow: 0 0 0 100px #fff inset;
       -moz-box-shadow: 0 0 0 100px #fff inset;
       box-shadow: 0 0 0 100px #fff inset;

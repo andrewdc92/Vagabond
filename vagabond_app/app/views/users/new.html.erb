@@ -2,21 +2,21 @@
 <h3 class="card-title">Sign Up</h3>
 <%= form_for @user do |f| %>
   <div>
+    <h5>Full Name</h5>
     <span class="label label-default"></span><%= f.text_field :name, :class => "fnameSup", placeholder: "Full Name" %>
   </div>
-  <br>
   <div>
+    <h5>Current City</h5>
     <span class="label label-default"></span><%= f.text_field :current_city, :class => "citySup", placeholder: "Current City" %>
   </div>
-  <br>
   <div>
+    <h5>Email</h5>
     <span class="label label-default"></span><%= f.text_field :email, :class => "emailSup", placeholder: "Email" %>
   </div>
-  <br>
   <div>
+    <h5>Password</h5>
     <span class="label label-default"></span><%= f.password_field :password, :class => "pwordSup", placeholder: "Password" %>
   </div>
-  <br>
   <%= f.submit "Sign Up", :class => 'btn-primary' %>
 <% end %>
 </div>

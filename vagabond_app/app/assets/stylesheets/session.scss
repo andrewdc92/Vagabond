@@ -20,13 +20,11 @@ input.login, input.password {
       -webkit-box-shadow: 0 0 0 100px #fff inset;
       -moz-box-shadow: 0 0 0 100px #fff inset;
       box-shadow: 0 0 0 100px #fff inset;
+      border-radius: 5px;
   }
 input.btn-primary{
   width: 9em;
   border-radius: 10px;
-}
-#emailEntry {
-  background-color: white;
 }
 
 .newuser {

@@ -1,17 +1,17 @@
-<div class="card pull-right" id="logincard">
+  <div class="card" id="logincard">
   <div class="card-block">
 <h3 class="card-title">Log In</h3>
 
 <%= form_for @user, url: "/sessions", method: "post" do |f| %>
-  <div>
-    <%= f.text_field :email, placeholder: "Email" %>
+  <div id="emailEntry">
+    <%= f.text_field :email, :class => "login", placeholder: "Email" %>
   </div>
   <br>
   <div>
-    <%= f.password_field :password, placeholder: "Password" %>
+    <%= f.password_field :password,:class => "password", placeholder: "Password" %>
   </div>
   <br>
-  <%= f.submit "Sign In" %>
+  <%= f.submit "Sign In", :class => 'btn-primary' %>
 <% end %>
 </div>
 </div>
